@@ -11,7 +11,7 @@ class Api::V1::WeixinController < Api::V1Controller
     # else
     #   eachostr = 'access verification fail'
     # end
-    respond_with eachostr
+    respond_with echostr
   end
 
   def verification
