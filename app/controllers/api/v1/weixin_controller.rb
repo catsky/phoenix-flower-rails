@@ -6,11 +6,11 @@ class Api::V1::WeixinController < Api::V1Controller
 
   def weixin_access_verify
     echostr = params['echostr']
-    if verification and echostr != nil
-        echostr
-    else
-      eachostr = 'access verification fail'
-    end
+    # if verification and echostr != nil
+    #     echostr
+    # else
+    #   eachostr = 'access verification fail'
+    # end
     respond_with eachostr
   end
 
